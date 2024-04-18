@@ -1,7 +1,13 @@
 import Footer from "@/components/Footer";
-import Navbar from "@/components/header/Navbar";
+import Accueil from "@/components/home/FirstSection";
+import FourthSection from "@/components/home/FourthSection";
+import SecondSection from "@/components/home/SecondSection";
+import SixthSection from "@/components/home/SixthSection";
+import ThirdSection from "@/components/home/ThirdSection";
+import Navbar from "@/components/Navbar";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import FifthSection from "../components/home/FifthSection";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -20,7 +26,13 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Navbar />
-        {children}
+        <Accueil />
+        <SecondSection />
+        <ThirdSection />
+        <FourthSection />
+        <FifthSection />
+        {/* {children} */}
+        <SixthSection />
         <Footer />
       </body>
     </html>

@@ -10,6 +10,10 @@ const config = {
 	],
   prefix: "",
   theme: {
+    fontFamily: {
+      sans: ['Poppins', 'sans-serif'],
+      // Ajoutez d'autres variantes de Poppins ici si nécessaire
+    },
     container: {
       center: true,
       padding: "2rem",
@@ -18,8 +22,36 @@ const config = {
       },
     },
     extend: {
+      width:{
+        'custom-width': '1441px', 
+        'gray-width': '1440px', 
+        'box-input-width':'1232px',
+        'second-section-width':'1440px',
+        'card-width':'604px',
+        'fourth-width':'1438px',
+        'fifth-width':'1440px',
+        'sixth-width':'1438px',
+        
+      },
+      height:{
+        'custom-height': '633px',
+        'gray-height': '575px',
+        'box-input-height':'368px',
+        'third-section-height':'918px',
+        'fourth-height':'775px',
+        'card-height': '241px',
+        'fifth-height':'716px',
+        'sixth-height':'374px'
+      },
+
       colors: {
         border: "hsl(var(--border))",
+        'bleu-nav':'#0E1D34', 
+        'first-color': '#FFF7F2',
+        'second-color': '#EEEEEE',
+        'card-color': '#FFF7F2',
+        'fourth-color':'#EEEEEE',
+        'fifth-color':'#FCFCFC',
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
