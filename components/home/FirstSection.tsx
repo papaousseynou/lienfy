@@ -3,7 +3,7 @@ import { Button } from "../ui/button";
 
 export default function Accueil() {
   return (
-    <div className="mx-auto h-custom-height bg-first-color flex items-center justify-around px-12 ">
+    <div className=" mx-auto h-custom-height bg-first-color flex items-center justify-around px-12 ">
       <div className="space-y-6 max-w-lg">
         <div>
           <p className="text-5xl font-bold">
@@ -25,6 +25,7 @@ export default function Accueil() {
           alt="section 1"
           width={607}
           height={526}
+          className="w-full"
         />
       </div>
     </div>

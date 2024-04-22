@@ -8,31 +8,34 @@ export default function FourthSection() {
       </h2>
       <br />
       <br />
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-20 py-12">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-20 py-12 mt-10">
         <div className="bg-white rounded-xl shadow-lg p-6 flex flex-col items-center">
-          <div className="">
+          <div className="relative bottom-16">
             <Image
               width={97}
               height={97}
               alt="Cody Fisher"
               src="/images/cody.png"
-              className=""
+              // style={{ marginBottom: "6px" }}
             />
           </div>
-          <h3 className="mt-2 font-bold">Cody Fisher</h3>
-          <p className="text-gray-600 text-sm mt-4 text-center gap-3">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore <br /> <br /> Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo con <br /> <br /> Duis aute irure dolor in reprehenderit
-            in voluptate velit esse cillum dolore eu fugiat nulla pariatu <br />
-            <br />
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id es
-          </p>
+          <div className="-mt-10">
+            <h3 className="mt-2 font-bold text-center">Cody Fisher</h3>
+            <p className="text-gray-600 text-md mt-4 text-center gap-3">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore <br /> <br /> Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+              ex ea commodo con <br /> <br /> Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatu <br />
+              <br />
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id es
+            </p>
+          </div>
         </div>
         <div className="bg-white rounded-xl shadow-lg p-6 flex flex-col items-center transform md:-translate-y-12">
-          <div className="">
+          <div className="relative bottom-16">
             <Image
               width={97}
               height={97}
@@ -41,20 +44,23 @@ export default function FourthSection() {
               className=""
             />
           </div>
-          <h3 className="mt-2 font-bold">Kristin Watson</h3>
-          <p className="text-gray-600 text-sm mt-4 text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore <br /> <br /> Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo con <br /> <br /> Duis aute irure dolor in reprehenderit
-            in voluptate velit esse cillum dolore eu fugiat nulla pariatu <br />
-            <br />
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id es
-          </p>
+          <div className="-mt-10">
+            <h3 className="mt-2 font-bold text-center">Kristin Watson</h3>
+            <p className="text-gray-600 text-md mt-4 text-center">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore <br /> <br /> Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+              ex ea commodo con <br /> <br /> Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatu <br />
+              <br />
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id es
+            </p>
+          </div>
         </div>
-        <div className="bg-white rounded-xl shadow-lg p-6 flex flex-col items-center">
-          <div className="">
+        <div className="bg-white rounded-xl shadow-lg p-6 flex flex-col items-center ">
+          <div className="relative bottom-16">
             <Image
               width={97}
               height={97}
@@ -63,17 +69,20 @@ export default function FourthSection() {
               className=""
             />
           </div>
-          <h3 className="mt-2 font-bold">Jerome Bell</h3>
-          <p className="text-gray-600 text-sm mt-4 text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore <br /> <br /> Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo con <br /> <br /> Duis aute irure dolor in reprehenderit
-            in voluptate velit esse cillum dolore eu fugiat nulla pariatu <br />{" "}
-            <br />
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id es
-          </p>
+          <div className="-mt-10">
+            <h3 className="mt-2 font-bold text-center">Jerome Bell</h3>
+            <p className="text-gray-600 text-md mt-4 text-center">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore <br /> <br /> Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+              ex ea commodo con <br /> <br /> Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatu <br />
+              <br />
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id es
+            </p>
+          </div>
         </div>
       </div>
     </div>

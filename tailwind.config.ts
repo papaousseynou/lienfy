@@ -31,6 +31,7 @@ const config = {
         'fourth-width':'1438px',
         'fifth-width':'1440px',
         'sixth-width':'1438px',
+        'form-width':'486px',
         
       },
       height:{
@@ -41,12 +42,16 @@ const config = {
         'fourth-height':'775px',
         'card-height': '241px',
         'fifth-height':'716px',
-        'sixth-height':'374px'
+        'sixth-height':'374px',
+        'height-signup':'940px',
+        'form-height':'608px',
+
       },
 
       colors: {
         border: "hsl(var(--border))",
         'bleu-nav':'#0E1D34', 
+        'form-bg-color':'#0E1D34',
         'first-color': '#FFF7F2',
         'second-color': '#EEEEEE',
         'card-color': '#FFF7F2',
