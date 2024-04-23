@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function resetPassword() {
   return (
@@ -30,19 +31,19 @@ export default function resetPassword() {
 
               <div className="">
                 <Button className="w-96 h-10 bg-orange-500">
-                  Réinitialiser mot de passe
+                  <Link href="/succesReset">Réinitialiser mot de passe</Link>
                 </Button>
               </div>
             </form>
             <div className="mt-12 text-center">
               <p className="text-gray-500 text-lg">
                 Vous n&apos;avez pas de compte ?
-                <a
+                <Link
                   href="/signup"
                   className="text-orange-500 hover:text-orange-600"
                 >
                   Créez-le ici
-                </a>
+                </Link>
               </p>
             </div>
           </div>

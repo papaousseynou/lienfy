@@ -5,11 +5,12 @@ import Link from "next/link";
 export default function Login() {
   return (
     <div
-      className="min-h-screen height-signup flex items-center justify-between bg-cover bg-center p-4"
+      className="h-screen w-full flex bg-cover bg-center"
       style={{ backgroundImage: "url('/images/section1.png')" }}
     >
-      <div></div>
-      <div className="flex-1 flex justify-end mr-8">
+      <div className="w-1/2 h-full"></div>
+
+      <div className="w-1/2 h-full bg-bleu-nav bg-opacity-80 flex justify-center items-center">
         <div className="bg-white w-form-width h-form-height flex flex-col items-center rounded-lg">
           <h2 className="text-3xl my-4 font-semibold">
             Lien<b className="text-orange-400">fy</b>
@@ -60,12 +61,12 @@ export default function Login() {
             <div className="mt-12 text-center">
               <p className="text-gray-500 text-lg">
                 Vous n&apos;avez pas de compte ?
-                <a
+                <Link
                   href="/signup"
                   className="text-orange-500 hover:text-orange-600"
                 >
                   Créez-le ici
-                </a>
+                </Link>
               </p>
             </div>
           </div>
