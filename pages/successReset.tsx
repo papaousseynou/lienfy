@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
-export default function succesReset() {
+export default function successReset() {
   return (
     <div
       className="h-screen w-full flex bg-cover bg-center"

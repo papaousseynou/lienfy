@@ -45,6 +45,7 @@ const config = {
         'sixth-height':'374px',
         'height-signup':'940px',
         'form-height':'608px',
+        'lien-height':'589px',
 
       },
 

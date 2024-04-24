@@ -13,7 +13,7 @@ export default function Login() {
       <div className="w-1/2 h-full bg-bleu-nav bg-opacity-80 flex justify-center items-center">
         <div className="bg-white w-form-width h-form-height flex flex-col items-center rounded-lg">
           <h2 className="text-3xl my-4 font-semibold">
-            Lien<b className="text-orange-400">fy</b>
+            Lien<span className="text-orange-400">fy</span>
           </h2>
           <h2 className="text-3xl my-4">Connexion</h2>
           <h3 className="text-gray-500 text-xl">
